@@ -1,7 +1,30 @@
 .DS_Store
 .env
+.env.local
+.env.*.local
 /node_modules/
 
 # React Router
 /.react-router/
 /build/
+/dist/
+/.output/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Deployment
+.vercel/
+.netlify/
